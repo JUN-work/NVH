@@ -27,6 +27,9 @@ header{
 .main-title h1, h2, p {
     position: absolute;/*絶対配置*/
     color: white;/*文字は白に*/
+    font-weight: bold; /*太字に*/
+    font-size: 2em;/*サイズ2倍*/
+    font-family :Quicksand, sans-serif;/*Google Font*/
     top: 0;
     left: 0;
 }
