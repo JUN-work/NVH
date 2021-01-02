@@ -1,0 +1,67 @@
+body{
+    color: #333;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+  }
+
+header{
+    background-color: #efefef;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    align-items: center;
+}
+
+/*.container {
+    background-color: pink;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}*/
+
+.main-title img {/*親section*/
+    position: relative;/*相対配置*/
+    width: 100%;
+}
+
+.main-title .title {
+    position: absolute;/*絶対配置*/
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    color: white;/*文字は白に*/
+    font-weight: bold; /*太字に*/
+    font-size: 2em;/*サイズ2倍*/
+    font-family :Quicksand, sans-serif;/*Google Font*/
+    top: 0;
+    left: 0;
+}
+
+.main-title h2 {
+    position: absolute;/*絶対配置*/
+    display:block;/*前後に改行*/
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    color: white;/*文字は白に*/
+    font-weight: bold; /*太字に*/
+    font-size: 2em;/*サイズ2倍*/
+    font-family :Quicksand, sans-serif;/*Google Font*/
+    top: 0;
+    left: 0;
+    padding-bottom:10px;/*文字との隙間*/
+}
+
+footer p {
+text-align: center;
+font-size: 14px;
+margin-bottom: 60px;
+color: gray;
+}
