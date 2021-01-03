@@ -15,7 +15,7 @@
   <header>
     <div class="container">
       <div class="logo">
-        <img src="img/NVH-logo.jpg" width="100" height="100" alt="NVHのロゴです">
+        <img src="img/NVH-logo.jpg" width=100 height=100 alt="NVHのロゴです">
       </div>
     </div>
   </header>
