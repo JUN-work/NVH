@@ -23,14 +23,8 @@ include('./common_php/_header.php');
   <div class="container">
     <p class="body-title">野菜の栄養価が一目で見れるサイトになります</p>
     <div class="columns main-body">
-      <div class="column is-half search-link">
-        <a href="search_from_nutritional_value.php">
-          栄養価から探す</a>
-      </div>
-      <div class="column is-half search-link">
-        <a href="search_from_vegetables.php">
-          野菜(食材)から探す</a>
-      </div>
+      <div class="column is-half search-link">栄養価から探す</div>
+      <div class="column is-half search-link">野菜(食材)から探す</div>
     </div>
   </div>
 </section>

@@ -30,10 +30,10 @@
         </div>
         <div class="dropdown-menu" id="dropdown-menu3" role="menu">
           <div class="dropdown-content">
-            <a href="search_from_nutritional_value.php" class="dropdown-item">
+            <a href="#" class="dropdown-item">
               栄養価から探す
             </a>
-            <a href="search_from_vegetables.php" class="dropdown-item">
+            <a href="#" class="dropdown-item">
               野菜(食材)から探す
             </a>
           </div>

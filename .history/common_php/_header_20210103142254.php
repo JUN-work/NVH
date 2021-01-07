@@ -15,9 +15,7 @@
   <header>
     <div class="container columns">
       <div class="logo column is-2 is-offset-2">
-        <a href="index.php">
-          <img src="img/NVH-logo.jpg" width=100 height=100 alt="NVHのロゴです">
-        </a>
+        <img src="img/NVH-logo.jpg" width=100 height=100 alt="NVHのロゴです">
       </div>
       <div class="dropdown column is-4  is-offset-6">
         <div class="dropdown-trigger">
@@ -30,10 +28,10 @@
         </div>
         <div class="dropdown-menu" id="dropdown-menu3" role="menu">
           <div class="dropdown-content">
-            <a href="search_from_nutritional_value.php" class="dropdown-item">
+            <a href="#" class="dropdown-item">
               栄養価から探す
             </a>
-            <a href="search_from_vegetables.php" class="dropdown-item">
+            <a href="#" class="dropdown-item">
               野菜(食材)から探す
             </a>
           </div>

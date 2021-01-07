@@ -11,6 +11,10 @@ header{
     align-items: center;
 }
 
+.dropdown-trigger {
+    margin-top: 35px;
+}
+
 .main-title {/*親section*/
     position: relative;/*相対配置*/
 }
@@ -70,8 +74,8 @@ header{
     font-family :Quicksand, sans-serif;
 }
 
-.main-body {
-    color: black;
+.body-title, .body-subtitle {
+    font-weight: bold;
 }
 
 .search-link {
